@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.decotl.asia/blog/5978269.sHtMl
+
+原标题：nodejs 事件循环机制完整讲解
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://book.decotl.asia/blog/2757071.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://book.decotl.asia/blog/9505866.sHtMl
+
+原标题：golang 系统设计 e2e 端到端测试简单落地思路
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.decotl.asia/blog/8590259.sHtMl
+
+原标题：golang elasticsearch 索引设计思路
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://book.decotl.asia/blog/5279681.sHtMl
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://book.decotl.asia/blog/6816958.sHtMl
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://book.decotl.asia/blog/9302393.sHtMl
+
+原标题：golang mysql 避免 select * 查询
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://book.decotl.asia/blog/0716919.sHtMl
+
+原标题：eslint prettier 代码规范落地
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://book.decotl.asia/blog/3857360.sHtMl
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://book.decotl.asia/blog/4716969.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://book.decotl.asia/blog/8423036.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://book.decotl.asia/blog/4156242.sHtMl
+
+原标题：开发复盘：避免大报文导致服务OOM优化实践
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://book.decotl.asia/blog/0603707.sHtMl
+
+原标题：golang es 更新文档注意版本冲突
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://book.decotl.asia/blog/3051792.sHtMl
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://book.decotl.asia/blog/2057360.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://book.decotl.asia/blog/6091704.sHtMl
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://book.decotl.asia/blog/2644959.sHtMl
+
+原标题：安全实践：接口速率限制防止暴力破解
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.decotl.asia/blog/2928171.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://book.decotl.asia/blog/9616815.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://book.decotl.asia/blog/0722828.sHtMl
+
+原标题：golang k8s secret 加密敏感信息
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://book.decotl.asia/blog/3602148.sHtMl
+
+原标题：golang 系统设计定时任务分片执行分布式思路
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://book.decotl.asia/blog/2930481.sHtMl
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://book.decotl.asia/blog/2923037.sHtMl
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://book.decotl.asia/blog/9361705.sHtMl
+
+原标题：接口签名校验防篡改实现
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://book.decotl.asia/blog/3079505.sHtMl
+
+原标题：golang gitlab runner 部署与注册实操
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://book.decotl.asia/blog/9834149.sHtMl
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.decotl.asia/blog/0702526.sHtMl
+
+原标题：Hands‑on：手写简单RPC框架基础通信版本
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：http://book.decotl.asia/blog/7495818.sHtMl
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://book.decotl.asia/blog/8581706.sHtMl
+
+原标题：前后端交互跨域问题完整处理
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://book.decotl.asia/blog/9616048.sHtMl
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.decotl.asia/blog/9725147.sHtMl
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.decotl.asia/blog/4160382.sHtMl
+
+原标题：golang mysql 连接泄漏检测方法
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://book.decotl.asia/blog/0425708.sHtMl
+
+原标题：golang websocket 服务端开发
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://book.decotl.asia/blog/4150315.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://book.decotl.asia/blog/2828060.sHtMl
+
+原标题：golang 系统设计创建更新时间自动维护方案
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://book.decotl.asia/blog/2945738.sHtMl
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：http://book.decotl.asia/blog/2191737.sHtMl
+
+原标题：golang mysql 分表自增 id 方案
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://book.decotl.asia/blog/5372515.sHtMl
+
+原标题：golang 错误处理最佳实践汇总
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://book.decotl.asia/blog/4152364.sHtMl
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.decotl.asia/blog/4162353.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 分布式上下文传递方案
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://book.decotl.asia/blog/0936147.sHtMl
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.decotl.asia/blog/8182704.sHtMl
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.decotl.asia/blog/3048364.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://book.decotl.asia/blog/4181704.sHtMl
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://book.decotl.asia/blog/8494659.sHtMl
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://book.decotl.asia/blog/7269578.sHtMl
+
+原标题：react 状态管理方案选型对比
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://book.decotl.asia/blog/0703815.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：http://book.decotl.asia/blog/4162626.sHtMl
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://book.decotl.asia/blog/0825026.sHtMl
+
+原标题：golang 系统设计数据库迁移工具 go‑migrate 实操
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：http://book.decotl.asia/blog/1836036.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://book.decotl.asia/blog/5859361.sHtMl
+
+原标题：golang 空接口 interface 使用技巧
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.decotl.asia/blog/9634920.sHtMl
+
+原标题：Nginx 反向代理路由配置实战
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://book.decotl.asia/blog/0717360.sHtMl
+
+原标题：数据库分表存储大表优化方案
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://book.decotl.asia/blog/3089476.sHtMl
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：http://book.decotl.asia/blog/6471392.sHtMl
+
+原标题：golang 系统设计链路数据存储选型对比讲解
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://book.decotl.asia/blog/0727808.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：http://book.decotl.asia/blog/0729172.sHtMl
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://book.decotl.asia/blog/6935932.sHtMl
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.decotl.asia/blog/0714920.sHtMl
+
+原标题：golang mysql 分表 id 路由逻辑
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://book.decotl.asia/blog/9201607.sHtMl
+
+原标题：Practice：实现业务唯一流水号生成组件实践
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://book.decotl.asia/blog/4161805.sHtMl
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：http://book.decotl.asia/blog/0615959.sHtMl
+
+原标题：程序信号中断退出处理逻辑
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://book.decotl.asia/blog/1824043.sHtMl
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://book.decotl.asia/blog/7424973.sHtMl
+
+原标题：git stash 代码暂存切换分支
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://book.decotl.asia/blog/7484694.sHtMl
+
+原标题：git rebase 整理提交历史实操
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://book.decotl.asia/blog/7149170.sHtMl
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://book.decotl.asia/blog/2868472.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://book.decotl.asia/blog/2007130.sHtMl
+
+原标题：快速入门环境区分：开发、测试、生产环境
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.decotl.asia/blog/6313627.sHtMl
+
+原标题：快速入门对象存储基础使用场景
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://book.decotl.asia/blog/5251582.sHtMl
+
+原标题：golang gin 框架接口开发实战
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://book.decotl.asia/blog/1704037.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://book.decotl.asia/blog/1150304.sHtMl
+
+原标题：Troubleshooting：数据库主从延迟带来查询数据不一致
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://book.decotl.asia/blog/4145458.sHtMl
+
+原标题：golang 系统设计 http1.1 http2 核心差异讲解
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://book.decotl.asia/blog/5260295.sHtMl
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://book.decotl.asia/blog/4261516.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://book.decotl.asia/blog/4057359.sHtMl
+
+原标题：golang 系统设计分表字段选择路由规则设计
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://book.decotl.asia/blog/6483403.sHtMl
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://book.decotl.asia/blog/5969252.sHtMl
+
+原标题：业务接口幂等完整落地案例
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://book.decotl.asia/blog/6378364.sHtMl
+
+原标题：DevOps：GitLabCI完整流水线配置示例
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.decotl.asia/blog/6070561.sHtMl
+
+三、实战开发｜Practice
+原标题：数据库连接池参数调优
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.decotl.asia/blog/1824637.sHtMl
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://book.decotl.asia/blog/7483474.sHtMl
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://book.decotl.asia/blog/6374515.sHtMl
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://book.decotl.asia/blog/1936148.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://book.decotl.asia/blog/8607848.sHtMl
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://book.decotl.asia/blog/7070363.sHtMl
+
+原标题：golang k8s helm chart 简单编写
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：http://book.decotl.asia/blog/1947259.sHtMl
+
+原标题：DevOps：GitLabCI完整流水线配置示例
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://book.decotl.asia/blog/0728920.sHtMl
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://book.decotl.asia/blog/7495247.sHtMl
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://book.decotl.asia/blog/9628360.sHtMl
+
+原标题：效率笔记：调试网络请求curl命令高级用法
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://book.decotl.asia/blog/5269515.sHtMl
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://book.decotl.asia/blog/6279493.sHtMl
+
+原标题：实战：对象存储断点续传下载实践
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://book.decotl.asia/blog/9602837.sHtMl
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.decotl.asia/blog/4151306.sHtMl
+
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://book.decotl.asia/blog/2649360.sHtMl
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://book.decotl.asia/blog/3051393.sHtMl
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://book.decotl.asia/blog/9314815.sHtMl
+
+原标题：图片上传预览格式大小处理
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://book.decotl.asia/blog/0714920.sHtMl
+
+原标题：golang docker compose 依赖启动顺序
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.decotl.asia/blog/0314918.sHtMl
+
+原标题：日志输出规范防止磁盘爆满
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.decotl.asia/blog/7481626.sHtMl
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang go 运行时获取编译信息，程序内部读取编译时间 git 版本，接口输出程序版本信息。
+ | 原文链接：http://book.decotl.asia/blog/7495737.sHtMl
+
+原标题：文件编码统一随机乱码修复
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://book.decotl.asia/blog/9892369.sHtMl
+
+原标题：快速入门WebSocket，实现简易双向通信demo
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://book.decotl.asia/blog/8782361.sHtMl
+
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.decotl.asia/blog/5203815.sHtMl
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.decotl.asia/blog/5079071.sHtMl
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://book.decotl.asia/blog/1825037.sHtMl
+
+原标题：golang lru 缓存淘汰算法编写
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://book.decotl.asia/blog/3042404.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://book.decotl.asia/blog/8293463.sHtMl
+
+原标题：golang k8s 基础概念 pod deployment
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://book.decotl.asia/blog/2957263.sHtMl
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://book.decotl.asia/blog/3058951.sHtMl
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://book.decotl.asia/blog/9381478.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://book.decotl.asia/blog/3014926.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://book.decotl.asia/blog/2681472.sHtMl
+
+原标题：提交第一个开源 PR 完整流程
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://book.decotl.asia/blog/9281204.sHtMl
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.decotl.asia/blog/5992361.sHtMl
+
+原标题：nodejs http 服务性能调优实战
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.decotl.asia/blog/9376115.sHtMl
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.decotl.asia/blog/3914685.sHtMl
+
+原标题：SDK 版本兼容线上崩溃修复
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://book.decotl.asia/blog/2132914.sHtMl
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://book.decotl.asia/blog/6358948.sHtMl
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://book.decotl.asia/blog/9370256.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang minio 对象存储接口开发
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://book.decotl.asia/blog/5268404.sHtMl
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://book.decotl.asia/blog/8595925.sHtMl
+
+原标题：golang gorm 批量插入性能调优
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://book.decotl.asia/blog/7592818.sHtMl
+
+原标题：golang 系统设计数据库索引设计方法论
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://book.decotl.asia/blog/3049462.sHtMl
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.decotl.asia/blog/2936142.sHtMl
+
+原标题：开发复盘：避免大报文导致服务OOM优化实践
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://book.decotl.asia/blog/9362794.sHtMl
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://book.decotl.asia/blog/7516859.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：http://book.decotl.asia/blog/9601803.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.decotl.asia/blog/4161360.sHtMl
+
+原标题：调优方案：静态资源缓存头Cache‑Control优化
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://book.decotl.asia/blog/4289490.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://book.decotl.asia/blog/9625725.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://book.decotl.asia/blog/4061392.sHtMl
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.decotl.asia/blog/5250492.sHtMl
+
+原标题：golang 日志与链路 ID 关联打印
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：http://book.decotl.asia/blog/2827628.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://book.decotl.asia/blog/7370469.sHtMl
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.decotl.asia/blog/1516758.sHtMl
+
+原标题：后端分页查询逻辑代码实现
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://book.decotl.asia/blog/6412625.sHtMl
+
+原标题：设计思考：大促系统架构压测改造整体思路
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.decotl.asia/blog/8189572.sHtMl
+
+?
