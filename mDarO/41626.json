@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：m.ubu2d5.asia/Article/details/3758372.sHtML
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：m.ubu2d5.asia/Article/details/7494735.sHtML
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：m.ubu2d5.asia/Article/details/6272404.sHtML
+
+原标题：配置与镜像分离防止信息泄露
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：m.ubu2d5.asia/Article/details/9362414.sHtML
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.ubu2d5.asia/Article/details/8594718.sHtML
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.ubu2d5.asia/Article/details/1828161.sHtML
+
+原标题：MySQL 慢查询索引优化实战
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：m.ubu2d5.asia/Article/details/4158450.sHtML
+
+原标题：MySQL 慢查询索引优化实战
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：m.ubu2d5.asia/Article/details/4047283.sHtML
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：m.ubu2d5.asia/Article/details/1526819.sHtML
+
+原标题：API 大版本不兼容平滑迁移
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：m.ubu2d5.asia/Article/details/4858253.sHtML
+
+原标题：golang prometheus 指标暴露实现
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：m.ubu2d5.asia/Article/details/6050282.sHtML
+
+原标题：Git 标签版本标记发布管理
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：m.ubu2d5.asia/Article/details/6470593.sHtML
+
+原标题：快速入门YAML配置文件语法与示例
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.ubu2d5.asia/Article/details/6314926.sHtML
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：m.ubu2d5.asia/Article/details/6081704.sHtML
+
+原标题：golang k8s 资源请求限制配置
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：m.ubu2d5.asia/Article/details/7595738.sHtML
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/0725260.sHtML
+
+原标题：golang 系统设计分库分表扩容平滑迁移
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：m.ubu2d5.asia/Article/details/3157848.sHtML
+
+原标题：golang mysql 读写分离简单实现
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/9617950.sHtML
+
+原标题：golang 分布式 ID 雪花算法实现
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：m.ubu2d5.asia/Article/details/4168372.sHtML
+
+原标题：设计思考：分布式锁选型、风险、业务约束
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：m.ubu2d5.asia/Article/details/2937142.sHtML
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：m.ubu2d5.asia/Article/details/4151395.sHtML
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.ubu2d5.asia/Article/details/5282707.sHtML
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.ubu2d5.asia/Article/details/1850472.sHtML
+
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：m.ubu2d5.asia/Article/details/7496950.sHtML
+
+原标题：架构笔记：分布式事务方案对比与业务取舍
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：m.ubu2d5.asia/Article/details/4868271.sHtML
+
+原标题：golang docker volume 数据持久化
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：m.ubu2d5.asia/Article/details/8491604.sHtML
+
+原标题：极简 API 网关路由转发实现
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：m.ubu2d5.asia/Article/details/3947263.sHtML
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：m.ubu2d5.asia/Article/details/3158614.sHtML
+
+原标题：golang 系统设计大文件上传架构
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：m.ubu2d5.asia/Article/details/3158363.sHtML
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：m.ubu2d5.asia/Article/details/1825081.sHtML
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：m.ubu2d5.asia/Article/details/3758350.sHtML
+
+原标题：优化实践：读写分离分担主库查询压力
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.ubu2d5.asia/Article/details/5270706.sHtML
+
+原标题：golang es 查询语句 DSL 实操
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：m.ubu2d5.asia/Article/details/7484647.sHtML
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：m.ubu2d5.asia/Article/details/2063414.sHtML
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：m.ubu2d5.asia/Article/details/0894026.sHtML
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：m.ubu2d5.asia/Article/details/3049253.sHtML
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/0727950.sHtML
+
+原标题：RPC 接口字段增减兼容处理
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：m.ubu2d5.asia/Article/details/8592894.sHtML
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：m.ubu2d5.asia/Article/details/9601817.sHtML
+
+原标题：golang mysql 字符集排序规则设置
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：m.ubu2d5.asia/Article/details/3052526.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 链路追踪简易实现方案
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：m.ubu2d5.asia/Article/details/5978472.sHtML
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：m.ubu2d5.asia/Article/details/5272526.sHtML
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：m.ubu2d5.asia/Article/details/2938142.sHtML
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：m.ubu2d5.asia/Article/details/9638172.sHtML
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：m.ubu2d5.asia/Article/details/5161403.sHtML
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.ubu2d5.asia/Article/details/0614048.sHtML
+
+原标题：前端水印防信息泄露实现
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：m.ubu2d5.asia/Article/details/4150650.sHtML
+
+原标题：golang 告警推送钉钉机器人实现
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：m.ubu2d5.asia/Article/details/4372526.sHtML
+
+原标题：golang 系统设计业务指标系统指标定义思路
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.ubu2d5.asia/Article/details/5283637.sHtML
+
+原标题：包管理器依赖缓存清理
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.ubu2d5.asia/Article/details/0639171.sHtML
+
+原标题：golang redis 事务 multi exec 使用
+简介：全局时间标准统一逻辑错乱修复，全服务统一使用同一时间标准，不要混用本地时间 UTC，修复时间逻辑 bug。
+ | 原文链接：m.ubu2d5.asia/Article/details/3049282.sHtML
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.ubu2d5.asia/Article/details/7483694.sHtML
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/5166151.sHtML
+
+原标题：坑点：gitpull冲突处理不当造成代码丢失
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：m.ubu2d5.asia/Article/details/5070683.sHtML
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：m.ubu2d5.asia/Article/details/2930405.sHtML
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：m.ubu2d5.asia/Article/details/8534819.sHtML
+
+原标题：开发生产环境资源路径统一
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：m.ubu2d5.asia/Article/details/5373849.sHtML
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：m.ubu2d5.asia/Article/details/4858472.sHtML
+
+原标题：golang mysql 存储过程简单使用
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：m.ubu2d5.asia/Article/details/2938177.sHtML
+
+原标题：golang 静态编译缩小镜像体积
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：m.ubu2d5.asia/Article/details/4261627.sHtML
+
+原标题：golang ip 限流黑名单实现方案
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：m.ubu2d5.asia/Article/details/1936271.sHtML
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：m.ubu2d5.asia/Article/details/1524026.sHtML
+
+原标题：前端工程化 webpack 打包优化
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.ubu2d5.asia/Article/details/5491715.sHtML
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.ubu2d5.asia/Article/details/0373472.sHtML
+
+原标题：Hands‑on：编写自定义Git钩子实现代码提交校验
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：m.ubu2d5.asia/Article/details/3716960.sHtML
+
+原标题：golang 集成测试启动测试数据库
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：m.ubu2d5.asia/Article/details/5383627.sHtML
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：m.ubu2d5.asia/Article/details/3746260.sHtML
+
+原标题：golang mysql exists in 性能对比
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：m.ubu2d5.asia/Article/details/1526257.sHtML
+
+原标题：golang 系统设计单元测试表驱动测试 table‑driven
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/0948359.sHtML
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：m.ubu2d5.asia/Article/details/8513819.sHtML
+
+原标题：新手指南：本地多版本环境共存配置
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/1938070.sHtML
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：m.ubu2d5.asia/Article/details/5169583.sHtML
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：m.ubu2d5.asia/Article/details/6499585.sHtML
+
+原标题：vue pinia 状态管理实战教程
+简介：golang 大内存分配 GC 抖动规避，避免瞬时大量对象创建，分批处理，防止 GC 抖动业务抖动。
+ | 原文链接：m.ubu2d5.asia/Article/details/6070693.sHtML
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.ubu2d5.asia/Article/details/4279693.sHtML
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：m.ubu2d5.asia/Article/details/9616938.sHtML
+
+原标题：golang prometheus 告警规则编写
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：m.ubu2d5.asia/Article/details/5261403.sHtML
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：m.ubu2d5.asia/Article/details/1827293.sHtML
+
+原标题：golang redis 持久化 RDB AOF 对比
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：m.ubu2d5.asia/Article/details/3050693.sHtML
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：m.ubu2d5.asia/Article/details/8505705.sHtML
+
+三、实战开发｜Practice
+原标题：零基础理解数据库事务基础ACID概念
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：m.ubu2d5.asia/Article/details/6819116.sHtML
+
+原标题：golang 信号量控制并发数量
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：m.ubu2d5.asia/Article/details/4000023.sHtML
+
+原标题：golang cpu pprof 性能分析实操
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：m.ubu2d5.asia/Article/details/4698880.sHtML
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：m.ubu2d5.asia/Article/details/2691436.sHtML
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：m.ubu2d5.asia/Article/details/7157925.sHtML
+
+原标题：数据库读写分离性能优化
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：m.ubu2d5.asia/Article/details/8595828.sHtML
+
+原标题：golang redis 客户端业务使用
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.ubu2d5.asia/Article/details/5272181.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：m.ubu2d5.asia/Article/details/2949262.sHtML
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：m.ubu2d5.asia/Article/details/8584795.sHtML
+
+原标题：golang traceId spanId 传递方案
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：m.ubu2d5.asia/Article/details/4160404.sHtML
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：m.ubu2d5.asia/Article/details/9606259.sHtML
+
+原标题：Docker 网络模式容器互通设置
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：m.ubu2d5.asia/Article/details/1945352.sHtML
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：m.ubu2d5.asia/Article/details/5157970.sHtML
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：m.ubu2d5.asia/Article/details/4183514.sHtML
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：m.ubu2d5.asia/Article/details/3056149.sHtML
+
+原标题：golang redis 客户端业务使用
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：m.ubu2d5.asia/Article/details/9616928.sHtML
+
+原标题：对象存储上传下载权限实操
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：m.ubu2d5.asia/Article/details/8594728.sHtML
+
+原标题：golang zap 日志按日期切割方案
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：m.ubu2d5.asia/Article/details/9638362.sHtML
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：m.ubu2d5.asia/Article/details/1958584.sHtML
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：m.ubu2d5.asia/Article/details/3146351.sHtML
+
+原标题：记一次升级操作系统内核引发服务不稳定
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/0757070.sHtML
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.ubu2d5.asia/Article/details/5291492.sHtML
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：m.ubu2d5.asia/Article/details/6370617.sHtML
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：m.ubu2d5.asia/Article/details/9618148.sHtML
+
+原标题：语义化版本依赖管理防错乱
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：m.ubu2d5.asia/Article/details/7502818.sHtML
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：m.ubu2d5.asia/Article/details/5273684.sHtML
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：m.ubu2d5.asia/Article/details/5202514.sHtML
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：m.ubu2d5.asia/Article/details/9202047.sHtML
+
+原标题：golang 系统设计最小权限原则落地实践
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：m.ubu2d5.asia/Article/details/9524039.sHtML
+
+原标题：macOS 脚本执行权限开启
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.ubu2d5.asia/Article/details/0724139.sHtML
+
+原标题：golang redis bitmap 位图统计实现
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：m.ubu2d5.asia/Article/details/2949479.sHtML
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：m.ubu2d5.asia/Article/details/4153930.sHtML
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：m.ubu2d5.asia/Article/details/8594628.sHtML
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：m.ubu2d5.asia/Article/details/5290573.sHtML
+
+原标题：golang 数据库批量更新性能优化
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：m.ubu2d5.asia/Article/details/5261714.sHtML
+
+原标题：文件句柄上限调整上传随机失败
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：m.ubu2d5.asia/Article/details/9412829.sHtML
+
+原标题：golang minio 预签名 url 临时访问
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：m.ubu2d5.asia/Article/details/1840362.sHtML
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：m.ubu2d5.asia/Article/details/4268472.sHtML
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：m.ubu2d5.asia/Article/details/4078470.sHtML
+
+原标题：golang 系统设计数据库连接池调优实践
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：m.ubu2d5.asia/Article/details/4190703.sHtML
+
+四、架构设计｜Architecture
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：m.ubu2d5.asia/Article/details/6051403.sHtML
+
+原标题：axios 二次封装请求拦截处理
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：m.ubu2d5.asia/Article/details/6483625.sHtML
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：m.ubu2d5.asia/Article/details/8402814.sHtML
+
+原标题：缓存过期打散防止缓存雪崩
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：m.ubu2d5.asia/Article/details/1838470.sHtML
+
+原标题：Security：Web常见安全漏洞原理与修复清单
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：m.ubu2d5.asia/Article/details/9604735.sHtML
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：m.ubu2d5.asia/Article/details/9616179.sHtML
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.ubu2d5.asia/Article/details/1939271.sHtML
+
+原标题：golang redis zset 延时队列实现
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：m.ubu2d5.asia/Article/details/2939262.sHtML
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：m.ubu2d5.asia/Article/details/8501718.sHtML
+
+原标题：分布式事务最终一致性实现
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：m.ubu2d5.asia/Article/details/0703937.sHtML
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：m.ubu2d5.asia/Article/details/1879581.sHtML
+
+原标题：前端下载导出文件功能实现
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：m.ubu2d5.asia/Article/details/0616950.sHtML
+
+原标题：依赖安装失败全方位排错
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.ubu2d5.asia/Article/details/5383633.sHtML
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：m.ubu2d5.asia/Article/details/8590706.sHtML
+
+原标题：GET POST 接口请求参数处理
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：m.ubu2d5.asia/Article/details/5267259.sHtML
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：m.ubu2d5.asia/Article/details/1895748.sHtML
+
+原标题：nestjs 框架模块化项目搭建
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：m.ubu2d5.asia/Article/details/5272637.sHtML
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：m.ubu2d5.asia/Article/details/2949060.sHtML
+
+?
